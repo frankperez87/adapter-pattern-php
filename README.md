@@ -5,13 +5,16 @@ This demonstrates how you can use the Adapter pattern to have 2 or more differen
 ```php
 <?php
 
+// Require composer autoload file
 require 'vendor/autoload.php';
 
+// Import classes
 use Acme\Book;
 use Acme\Kindle;
 use Acme\KindleAdapter;
 use Acme\Person;
 
+// Instantiate object
 $person = new Person;
 
 // Read from Book
